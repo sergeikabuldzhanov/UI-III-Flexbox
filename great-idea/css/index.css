@@ -186,14 +186,16 @@ p{
 
 section{
 	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-bottom: 10px;
 	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	border-bottom: 2px solid black;
 }
 
 .content{
 	display: flex;
 	flex-flow: row wrap;
+	justify-content: space-between;
+	align-content: space-around;
 }
 
 .upper-row{
@@ -228,6 +230,63 @@ footer address p{
 
 .services-header-img{
 	display: block;
-	margin: 86px 0px 40px 0px;
+	margin: 86px 0px 33px 0px;
 	height: 200px;
+}
+
+.card{
+	border: 1px solid black;
+	width: calc(50% - 20px);
+	padding: 19px;
+	margin: 12px 0 30px 0;
+	height: 250px;
+}
+
+.card button{
+	font-size: 12px;
+	margin: 22px 0 0 0;
+	border-radius: 5px;
+	padding: 9px 37px 10px 40px;
+}
+
+.card p{
+	margin-top: 20px;
+	line-height: 1.2;
+}
+
+h2.services-header{
+	font-size: 26px;
+}
+
+p.services-header{
+	line-height: 1.2;
+	margin-bottom: 41px;
+}
+
+.services-footer{
+	display: flex;
+	justify-content: space-between;
+	margin: 40px 0px;
+}
+
+.services-footer p{
+	line-height: 1.25;
+	margin-top: 20px;
+}
+
+ul{
+	margin: 25px 0;
+}
+
+li{
+	margin: 15px 15px 15px 15px;
+	list-style-type: square;
+}
+
+.services-info-img{
+	width: calc(50% - 20px);
+}
+
+.footercard{
+	width: 45%;
 }
